@@ -1,0 +1,29 @@
+@charset "utf-8";
+*{
+    margin: none;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+div#imagem img{ 
+    margin: auto;
+    width: 90vw;
+    height: 50vh;
+
+
+}
+div#formulario {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+
+}
+section {
+    margin: auto;
+    padding: 10px;
+    background-color: darkgray;
+}
