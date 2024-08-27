@@ -1,29 +1,37 @@
 @charset "utf-8";
+:root {
+    --cor0:#49a09d;
+    --cor1:#5f2c82;
+}
+
 *{
     margin: none;
     padding: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    background-attachment: fixed;
+}
 h1 {
     text-align: center;
 }
 
+
 div#imagem img{ 
+    display: block;
     margin: auto;
-    width: 90vw;
-    height: 50vh;
-
-
+    max-width: 320px;
+    width: 50vw;
+    height: 30vh;
 }
+
 div#formulario {
     width: 50vw;
-    height: 50vh;
+    margin: auto;
     text-align: center;
-    margin: auto;
-
 }
-section {
-    margin: auto;
-    padding: 10px;
-    background-color: darkgray;
+div#formulario input {
+    margin: 5px;
 }
