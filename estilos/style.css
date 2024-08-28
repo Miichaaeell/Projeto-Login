@@ -32,6 +32,7 @@ section#login {
     height: 500px;
     background-color: white;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+    overflow: hidden;
 }
 
 
@@ -39,8 +40,6 @@ div#imagem {
     display: block;
     background-image: url(../imagens/bg-mar.jpg);
     background-size: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     height: 200px;
 
 }
